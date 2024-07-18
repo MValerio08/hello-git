@@ -14,7 +14,7 @@ print("haciendo la prueba de diff son tres prints que agregamos")
 # git tag <nombre_etiqueta> // asigna una etiqueta al codigo de commit deseado
 # git tag // muestra la lista de tags que tenemos 
 # git checkout tags/clase_1
-# git config --global alias.tree "log --pretty=format:'%h %s'" //se crea un alias para ver commit de manera ordenada"
+# git config --global alias.tree "log --pretty=format:'%h %s' --graph" //se crea un alias para ver commit de manera ordenada"
 # git branch <nombre del archivo> // crea una ramificacion secundaria del main en ese punto para poder trabajar sin alterar la rama principal
 # git witch <nombre de la rama secundaria> // cambia el head de la rama primaria a otra rama secundaria
 # git merge main // este comando se usa en la rama secundaria sirve para mezclar o traer al login todo lo que se ha codificado en la rama principal despues de su creacion 
