@@ -1,4 +1,4 @@
-print("hola desde hello git 2")
+print("hola desde hello git 2 v3.0")
 #haciendo la prueba del commit  
 
 print("haciendo la prueba de diff")
@@ -17,3 +17,4 @@ print("haciendo la prueba de diff son tres prints que agregamos")
 # git config --global alias.tree "log --pretty=format:'%h %s'" //se crea un alias para ver commit de manera ordenada"
 # git branch <nombre del archivo> // crea una ramificacion secundaria del main en ese punto para poder trabajar sin alterar la rama principal
 # git witch <nombre de la rama secundaria> // cambia el head de la rama primaria a otra rama secundaria
+# git merge main // este comando se usa en la rama secundaria sirve para mezclar o traer al login todo lo que se ha codificado en la rama principal despues de su creacion 
