@@ -9,4 +9,8 @@ print("haciendo la prueba de diff son tres prints que agregamos")
 # git checkout HEAD
 # git checkout main // va a la rama que es la principal
 # git reset --hard <el codigo de ramifiacion>  // vuelve a ese punto y lo vuelve el main 
-# git reflog // muestra todo lo que esta guardado
+# git reflog // muestra todos los codigos del commit que estan guardados
+# git add . // sirve para agregar todos los archivos a git
+# git tag <nombre_etiqueta> // asigna una etiqueta al codigo de commit deseado
+# git tag // muestra la lista de tags que tenemos 
+# git checkout tags/clase_1
